@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Sofadi+One&display=swap');
+
+:root {
+    color-scheme: light dark;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    margin: 10px 10px 10px 10px;
+    height: 10vh;
+    color: black;
+    background-color: rgb(100, 96, 96);
+    border-radius: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.navbar-logo h1 {
+    font-size: 40px;
+    font-family: "Sofadi One", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    color: black;
+}
+
+.navbar-links ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.navbar-links ul li {
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.navbar-links ul li:hover {
+    background-color: rgba(255, 255, 255, 0.089);
+}
+
+.profile-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.profile-container img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.navbar-profile {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.navbar-profile a {
+    font-size: 30px;
+}
